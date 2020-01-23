@@ -2,7 +2,7 @@
 class Circle {
     connstructor(radius) {
         this._radius = radius;
-        this.pi = Math.PI; 
+        this.pi = Math.PI;
     }
     get diameter() {
         this.diameter = this.radius * 2;
