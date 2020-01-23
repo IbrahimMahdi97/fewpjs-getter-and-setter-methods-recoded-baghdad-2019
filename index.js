@@ -3,7 +3,7 @@ const pi = Math.PI
 
 class Circle {
     connstructor(radius) {
-        this._radius = radius;
+        this.radius = radius;
     }
     get diameter() {
         return this.radius * 2;
