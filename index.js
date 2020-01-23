@@ -9,7 +9,7 @@ class Circle {
         return this.radius * 2;
     }
     get circumference() {
-        return this.diameter * this.pi;
+        return this.diameter * pi;
     }
     get area () {
         this.area = this.pi * (this.radius ** 2)
