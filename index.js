@@ -6,10 +6,10 @@ class Circle {
         this._radius = radius;
     }
     get diameter() {
-        this.diameter = this.radius * 2;
+        return this.radius * 2;
     }
     get circumference() {
-        this.circumference = this.diameter * this.pi;
+        return this.diameter * this.pi;
     }
     get area () {
         this.area = this.pi * (this.radius ** 2)
